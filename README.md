@@ -13,7 +13,7 @@ I ship constantly — most of it lives in private repos while it's cooking. The 
 
 - **⚙️ [Automagic.ly](https://automagic.ly)** — the automation shop: practical AI-assisted process automation for businesses that run on paperwork. The next site is Astro with a proof-ledger content model — every marketing claim carries its source, method, and caveat before it ships. Anti-hype on purpose. `active`
 
-- **🧾 Invoice automation platform** — a production system built under Automagic.ly for a telecom-heavy client: reads utility and carrier invoices across 20 extractor formats, generates compliant cover sheets with cost-center allocations, and manages monthly submissions and reporting. Python, SQLite, Fly.io behind Cloudflare, role-based auth. Phase 1 live in production. `active`
+- **🧾 Invoice automation platform** — a production system built under Automagic.ly for a telecom-heavy client: reads utility and carrier invoices across 20 extractor formats, generates compliant cover sheets with cost-center allocations, and manages monthly submissions and reporting. Python, SQLite, Fly.io behind Cloudflare, role-based auth. Live in production. `shipped`
 
 - **🗃️ theDBSample** — a local-only research database for collegiate track and cross country results. TypeScript CLI pipeline that plans, queues, and ingests public results pages into SQLite, with QA reports and a documented wave-by-wave runbook. Ships code only — never the data. `active`
 
