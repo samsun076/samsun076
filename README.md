@@ -26,7 +26,6 @@ I ship constantly — most of it lives in private repos while it's cooking. The 
 
 ## 📊 Stats
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=samsun076&show_icons=true&count_private=true&hide_border=true&theme=github_dark&hide=stars,prs,issues,contribs" alt="Dave's GitHub stats" height="165" />
 <img src="https://streak-stats.demolab.com?user=samsun076&theme=github-dark-blue&hide_border=true" alt="Contribution streak" height="165" />
 
 ---
