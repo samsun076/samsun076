@@ -31,6 +31,7 @@ Practical AI-assisted process automation for businesses that run on paperwork. T
 
 ## 🧪 In the lab
 
+- 🖥️ **local-AI** — turning an M4 Pro Mac into an always-on AI server: local models (Qwen3-Coder on MLX via LM Studio) wired through an outbound relay so a community gets a 24/7 agent at **zero marginal cost per token**. Frontier models by API when it matters; local silicon for everything else.
 - 🗃️ **theDBSample** — local-only research database for collegiate track & XC results. TypeScript CLI pipeline, provenance-tracked, ships code only — never the data.
 - 🧠 **Memex** — an LLM-maintained knowledge base holding only what a model can't look up: decisions with their reasoning, project context, hard-won gotchas. Three verbs: compile, query, audit.
 
