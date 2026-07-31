@@ -2,6 +2,8 @@
 
 I ship constantly — most of it lives in private repos while it's cooking. The green squares are real; the source just isn't public yet.
 
+🌐 **Portfolio:** [dmarcinowski.com](https://dmarcinowski.com)
+
 ## 🔨 Now building
 
 <!-- PROJECTS:START -->
@@ -20,7 +22,7 @@ I ship constantly — most of it lives in private repos while it's cooking. The 
 - **📦 RunDB** — clean-source data engine behind Seedmark
   Legally sourced college performance facts with per-record provenance, served through a versioned data contract. Every fetch passes a policy firewall; ships code, never data. TypeScript, SQLite. `active`
 
-- **🤖 ai-portfolio-dm** — AI-powered portfolio with honest fit assessment
+- **🤖 [ai-portfolio-dm](https://dmarcinowski.com)** — AI-powered portfolio with honest fit assessment
   Recruiters chat with an LLM grounded in real work history; paste a job description and get a genuine fit verdict, not a sales pitch. Admin panel for managing all content. Next.js 16, React 19, Supabase, Drizzle ORM, Claude API. `shipped`
 
 - **⏱️ ChiroTracker** — QR badge time clock for a small practice
@@ -32,7 +34,8 @@ I ship constantly — most of it lives in private repos while it's cooking. The 
 
 ## 📊 Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=samsun076&show_icons=true&count_private=true&hide_border=true&theme=github_dark" alt="Dave's GitHub stats" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=samsun076&show_icons=true&count_private=true&hide_border=true&theme=github_dark" alt="Dave's GitHub stats" height="165" />
+<img src="https://streak-stats.demolab.com?user=samsun076&theme=github-dark-blue&hide_border=true" alt="Contribution streak" height="165" />
 
 ---
 
