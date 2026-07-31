@@ -23,7 +23,7 @@ I ship constantly — most of it lives in private repos while it's cooking. The 
 
 - **🤖 [ai-portfolio-dm](https://dmarcinowski.com)** — a portfolio site that lets employers interrogate the candidate instead of skimming a PDF. Chat with an AI grounded in real work history, paste a job description and get an honest fit verdict — including "probably not." Next.js 16, React 19, Tailwind v4, Supabase, Drizzle, and the Claude API. `shipped`
 
-- **⏱️ ChiroTracker** — a tablet kiosk for small-clinic staff time tracking: clock in and out on a wall-mounted device, with a dashboard for hours and reporting. JavaScript PWA, offline-tolerant service worker, containerized deploy. `shipped`
+- **⏱️ ChiroTracker** — a tablet kiosk for small-clinic staff time tracking: employees clock in and out by scanning their personal QR badge on a wall-mounted device. The owner side handles employee management — onboarding, badges, roles — plus a dashboard for hours, time-entry edits, and reporting. JavaScript PWA, offline-tolerant service worker, containerized deploy. `shipped`
 
 - **🧠 Memex** — an LLM-maintained personal knowledge base, built on Obsidian and markdown. Holds only what a model can't look up — decisions with their reasoning, project context, hard-won gotchas — and runs on three verbs: compile, query, audit. `active`
 <!-- PROJECTS:END -->
