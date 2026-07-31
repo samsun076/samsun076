@@ -2,37 +2,45 @@
 
 I ship constantly — most of it lives in private repos while it's cooking. The green squares are real; the source just isn't public yet.
 
-🌐 **Portfolio:** [dmarcinowski.com](https://dmarcinowski.com)
+🌐 **Portfolio:** [dmarcinowski.com](https://dmarcinowski.com) &nbsp;·&nbsp; ⚙️ **Shop:** [automagic.ly](https://automagic.ly)
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,astro,python,sqlite,supabase,cloudflare,docker" alt="TypeScript, React, Next.js, Tailwind, Astro, Python, SQLite, Supabase, Cloudflare, Docker" height="36" />
 
 ## 🔨 Now building
 
-<!-- PROJECTS:START -->
-- **🏃 Debrief** — a run-tracking app that's a reflection tool, not a recording tool: the watch records, this is where you sit down and think about the training. The hook: two-way MCP connectivity with Claude or GPT — the AI reads your actual training history, then writes back into the app: tailored workouts, coaching insights, load warnings, whatever your miles call for. An AI coach with write access to your training log, not a chatbot with generic tips. Built on the Suunto API partner program, Suunto users first, Strava and other providers on the roadmap. Effort-colored trend bars, an 80/20 read on the week, local SQLite. No accounts, no server, no feed. `active`
+### 🏃 Debrief — the run-tracking app that thinks
 
-- **🌐 debrief-site** — the public landing page for Debrief, at [debrief.run](https://debrief.run). Hand-written static HTML with no framework and no build step, deployed to Cloudflare Pages straight off `main`. `shipped`
+A reflection tool, not a recording tool: the watch records; this is where you sit down and think about the training. The hook is two-way MCP connectivity with Claude or GPT — the AI reads your actual training history, then writes back tailored workouts, coaching insights, and load warnings. **An AI coach with write access to your training log, not a chatbot with generic tips.** Built on the Suunto API partner program; Strava and other providers on the roadmap. Landing page at [debrief.run](https://debrief.run).
 
-- **⚙️ [Automagic.ly](https://automagic.ly)** — the automation shop: practical AI-assisted process automation for businesses that run on paperwork. The next site is Astro with a proof-ledger content model — every marketing claim carries its source, method, and caveat before it ships. Anti-hype on purpose. `active`
+### 🎯 Seedmark — recruiting reality for high-school runners
 
-- **🧾 Invoice automation platform** — a production system built under Automagic.ly for a telecom-heavy client: reads utility and carrier invoices across 20 extractor formats, generates compliant cover sheets with cost-center allocations, and manages monthly submissions and reporting. Python, SQLite, Fly.io behind Cloudflare, role-based auth. Live in production. `shipped`
+Tells a distance runner where their times actually stand against college recruiting benchmarks, tracked over a multi-year horizon. The benchmark math is deterministic and tested, and grades against an expected age curve — **so normal development never reads as failure.** Powered by 📚 **RunDB**, a clean-source data engine with per-record provenance: every source passes policy review before a single fetch, and the audit trail is committed alongside the code.
 
-- **🗃️ theDBSample** — a local-only research database for collegiate track and cross country results. TypeScript CLI pipeline that plans, queues, and ingests public results pages into SQLite, with QA reports and a documented wave-by-wave runbook. Ships code only — never the data. `active`
+### ⚙️ Automagic.ly — the automation shop
 
-- **🎯 Seedmark** — tells a high-school distance runner where their times actually stand against college recruiting benchmarks, and tracks progress toward them over a multi-year horizon. Next.js 16, React 19, TypeScript, Tailwind, zod, vitest; benchmark math is deterministic and tested, and grades against an expected age curve so normal development never reads as failure. `active`
+Practical AI-assisted process automation for businesses that run on paperwork. The next site ships with a proof-ledger content model — **every marketing claim carries its source, method, and caveat before it goes live.** Anti-hype on purpose.
 
-- **📚 RunDB** — the clean-source data engine behind Seedmark: college running facts with per-record provenance, served through a versioned data contract. Every source domain passes a policy review before a single fetch, with the audit trail committed alongside the code. `active`
+## 🚢 Shipped and humming
 
-- **🤖 [ai-portfolio-dm](https://dmarcinowski.com)** — a portfolio site that lets employers interrogate the candidate instead of skimming a PDF. Chat with an AI grounded in real work history, paste a job description and get an honest fit verdict — including "probably not." Next.js 16, React 19, Tailwind v4, Supabase, Drizzle, and the Claude API. `shipped`
+| | |
+|---|---|
+| 🧾 **Invoice automation platform** | Production system under Automagic.ly for a telecom-heavy client — 20 carrier extractor formats, compliant cover sheets with cost-center allocations, monthly reporting. Python · SQLite · Fly.io |
+| 🤖 **[ai-portfolio-dm](https://dmarcinowski.com)** | A portfolio that lets employers interrogate the candidate instead of skimming a PDF — paste a job description, get an honest fit verdict, including "probably not." Next.js · Supabase · Claude API |
+| ⏱️ **ChiroTracker** | QR-badge time clock for a small clinic — kiosk clock-in, employee management, hours dashboard. Offline-tolerant PWA |
+| 🌐 **[debrief.run](https://debrief.run)** | Debrief's landing page — hand-written HTML, no framework, no build step |
 
-- **⏱️ ChiroTracker** — a tablet kiosk for small-clinic staff time tracking: employees clock in and out by scanning their personal QR badge on a wall-mounted device. The owner side handles employee management — onboarding, badges, roles — plus a dashboard for hours, time-entry edits, and reporting. JavaScript PWA, offline-tolerant service worker, containerized deploy. `shipped`
+## 🧪 In the lab
 
-- **🧠 Memex** — an LLM-maintained personal knowledge base, built on Obsidian and markdown. Holds only what a model can't look up — decisions with their reasoning, project context, hard-won gotchas — and runs on three verbs: compile, query, audit. `active`
-<!-- PROJECTS:END -->
+- 🗃️ **theDBSample** — local-only research database for collegiate track & XC results. TypeScript CLI pipeline, provenance-tracked, ships code only — never the data.
+- 🧠 **Memex** — an LLM-maintained knowledge base holding only what a model can't look up: decisions with their reasoning, project context, hard-won gotchas. Three verbs: compile, query, audit.
 
 ## 📊 Stats
 
-<img src="https://streak-stats.demolab.com?user=samsun076&theme=github-dark-blue&hide_border=true" alt="Contribution streak" height="165" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=samsun076&theme=github-dark-blue&hide_border=true">
+  <img src="https://streak-stats.demolab.com?user=samsun076&hide_border=true" alt="Contribution streak" height="165">
+</picture>
 
 ---
 
 <sub>All active work is private for now — ask me about it.</sub>
-
