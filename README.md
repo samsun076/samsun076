@@ -7,7 +7,7 @@ I ship constantly — most of it lives in private repos while it's cooking. The 
 ## 🔨 Now building
 
 <!-- PROJECTS:START -->
-- **🏃 Debrief** — a run-tracking app that's a reflection tool, not a recording tool: the watch records, this is where you sit down and think about the training. Built on the Suunto API partner program — made for Suunto users first, with Strava and other providers on the roadmap. Static dashboard over a local SQLite history, with effort-colored trend bars and an 80/20 read on the week. No accounts, no server, no feed. `active`
+- **🏃 Debrief** — a run-tracking app that's a reflection tool, not a recording tool: the watch records, this is where you sit down and think about the training. The hook: MCP connectivity plugs your training history straight into Claude or GPT, so the coaching advice, load warnings, and running nuggets come from *your actual miles* — not generic tips. Built on the Suunto API partner program, Suunto users first, Strava and other providers on the roadmap. Effort-colored trend bars, an 80/20 read on the week, local SQLite. No accounts, no server, no feed. `active`
 
 - **🌐 debrief-site** — the public landing page for Debrief, at [debrief.run](https://debrief.run). Hand-written static HTML with no framework and no build step, deployed to Cloudflare Pages straight off `main`. `shipped`
 
