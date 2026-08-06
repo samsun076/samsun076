@@ -4,6 +4,8 @@ I build automation systems for businesses that run on paperwork, plus a handful 
 
 Most of it ships private — the contribution graph is real, the source just isn't public.
 
+> **How I build:** deterministic core first — tested extraction, tested math, repeatable output — then non-deterministic workflows layered on top, only where judgment actually helps. The model goes at the edges, never in the critical path.
+
 🌐 **Portfolio:** [dmarcinowski.com](https://dmarcinowski.com) &nbsp;·&nbsp; ⚙️ **Shop:** [automagic.ly](https://automagic.ly)
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,astro,python,sqlite,supabase,cloudflare,docker" alt="TypeScript, React, Next.js, Tailwind, Astro, Python, SQLite, Supabase, Cloudflare, Docker" height="36" />
@@ -15,7 +17,7 @@ Most of it ships private — the contribution graph is real, the source just isn
 
 Monthly telecom invoicing for a telecom-heavy client, end to end.
 
-- **33 carrier accounts, 25 retrieved unattended** — portal automation, reimplemented HTTP logins, or straight out of an inbox, because no two carriers deliver the same way
+- **33 carrier accounts, 22 retrieved unattended** — portal automation, reimplemented HTTP logins, or straight out of an inbox, because no two carriers deliver the same way
 - **22 extractor formats** normalize the bills and split charges across cost centers
 - Cover sheets, monthly reporting, and submission back into the customer's AP intake system — **all of it automatic**
 - Retries know the difference between **a failed download and a carrier that just hasn't posted the bill yet** — different problems, different escalation
