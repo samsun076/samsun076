@@ -58,7 +58,7 @@ Training analysis for runners — the dashboard that talks back. The watch recor
 ### 🍽️ MyMacros
 **Open source · in development**
 
-Photograph a meal, get the macros. Most trackers make you log a workout to earn calories back — this one already knows what you ran.
+Photo-to-macros isn't new. Owning it instead of renting it — and having it know what I ran this week — is.
 
 - **Model at the edge, math at the core** — Sonnet 5 vision estimates macros from a photo; the daily budget is deterministic, computed against real training load
 - Run data arrives through **Debrief's** Suunto pipeline, weight from a Garmin Index scale — the two are built to meet
