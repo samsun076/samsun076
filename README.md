@@ -50,6 +50,17 @@ Training analysis for runners — the watch records, this is where you sit down 
 
 `Electron · SQLite · MCP` — [debrief.run](https://debrief.run)
 
+### 🍽️ MyMacros
+**Open source · in development**
+
+Photograph a meal, get the macros. Most trackers make you log a workout to earn calories back — this one already knows what you ran.
+
+- **Model at the edge, math at the core** — Sonnet 5 vision estimates macros from a photo; the daily budget is deterministic, computed against real training load
+- Run data arrives through **Debrief's** Suunto pipeline, weight from a Garmin Index scale — the two are built to meet
+- **The one public repo here** — everything else on this profile is closed
+
+`React · Hono · Cloudflare Workers · D1 · R2 · TypeScript` — [github.com/samsun076/MyMacros](https://github.com/samsun076/MyMacros)
+
 ### 🎯 Seedmark
 **In development**
 
