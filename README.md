@@ -35,7 +35,7 @@ Paste a job description, get an honest fit verdict — including "probably not."
 ## 🔨 Building now
 
 ### 🏃 Debrief
-**Solo build · in daily use since Jul 2026**
+**Solo build · private beta · in daily use since Jul 2026**
 
 Training analysis for runners — the watch records, this is where you sit down and think about it.
 
