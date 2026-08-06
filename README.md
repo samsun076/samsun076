@@ -21,7 +21,7 @@ Monthly telecom invoicing for a telecom-heavy client, end to end.
 - **22 extractor formats** normalize the bills and split charges across cost centers
 - Cover sheets, monthly reporting, and submission back into the customer's AP intake system — **all of it automatic**
 - Retries know the difference between **a failed download and a carrier that just hasn't posted the bill yet** — different problems, different escalation
-- **Operated, not just deployed** — CI/CD on push, cron across the billing cycle, a daily failure digest by email, and 11 runbooks for when a carrier redesigns their portal
+- **Operated, not just deployed** — CI/CD on push, cron across the billing cycle, a daily failure digest by email, and 11 command-level runbooks written precisely enough that an agent runs the monthly support cycle
 - Downloading, coding, cover sheets, review: **the old way took about 20 hours a month**
 
 `Python · FastAPI · SQLite · Playwright · React · Fly.io`
