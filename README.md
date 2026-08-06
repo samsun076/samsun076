@@ -18,6 +18,7 @@ Monthly telecom invoicing for a telecom-heavy client, end to end.
 - **33 carrier accounts, 25 retrieved unattended** — portal automation, reimplemented HTTP logins, or straight out of an inbox, because no two carriers deliver the same way
 - **22 extractor formats** normalize the bills and split charges across cost centers
 - Cover sheets, monthly reporting, and submission back into the customer's AP intake system — **all of it automatic**
+- Retries know the difference between **a failed download and a carrier that just hasn't posted the bill yet** — different problems, different escalation
 - Downloading, coding, cover sheets, review: **the old way took about 20 hours a month**
 
 `Python · FastAPI · SQLite · Playwright · React · Fly.io`
