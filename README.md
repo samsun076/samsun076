@@ -1,39 +1,42 @@
 # Hey, I'm Dave 👋
 
-I ship constantly — most of it lives in private repos while it's cooking. The green squares are real; the source just isn't public yet.
+I build automation systems for businesses that run on paperwork, plus a handful of products of my own. Most of it ships private — the contribution graph is real, the source just isn't public.
 
 🌐 **Portfolio:** [dmarcinowski.com](https://dmarcinowski.com) &nbsp;·&nbsp; ⚙️ **Shop:** [automagic.ly](https://automagic.ly)
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,astro,python,sqlite,supabase,cloudflare,docker" alt="TypeScript, React, Next.js, Tailwind, Astro, Python, SQLite, Supabase, Cloudflare, Docker" height="36" />
 
-## 🔨 Now building
+## 🚢 In production
 
-### 🏃 Debrief — the run-tracking app that thinks
+### 🧾 Invoice automation platform · client work · in production since Feb 2026
 
-A reflection tool, not a recording tool: the watch records; this is where you sit down and think about the training. The hook is two-way MCP connectivity with Claude or GPT — the AI reads your actual training history, then writes back tailored workouts, coaching insights, and load warnings. **An AI coach with write access to your training log, not a chatbot with generic tips.** Built on the Suunto API partner program; Strava and other providers on the roadmap. Landing page at [debrief.run](https://debrief.run).
+Runs a telecom-heavy client's monthly invoicing end to end. 33 carrier accounts, 25 of them retrieved unattended — some by driving the carrier's portal, some by reimplementing its login in plain HTTP, some pulled straight out of an inbox, because no two carriers deliver the same way. 22 extractor formats normalize the bills, split charges across cost centers, and generate the branded cover sheet every invoice needs — roughly 30 a month that used to be assembled by hand at 5–10 minutes apiece. Finished packets submit themselves back into the customer's AP intake system. `Python · FastAPI · SQLite · Playwright · React · Fly.io`
 
-### 🎯 Seedmark — recruiting reality for high-school runners
+### ⏱️ ChiroTracker · client work · in production since Feb 2026
 
-Tells a distance runner where their times actually stand against college recruiting benchmarks, tracked over a multi-year horizon. The benchmark math is deterministic and tested, and grades against an expected age curve — **so normal development never reads as failure.** Powered by 📚 **RunDB**, a clean-source data engine with per-record provenance: every source passes policy review before a single fetch, and the audit trail is committed alongside the code.
+QR-badge time clock that replaced paper timesheets at a small clinic — kiosk clock-in, employee management, hours dashboard. Built offline-tolerant as a PWA so a dropped connection never costs someone their punch.
 
-### ⚙️ Automagic.ly — the automation shop
+### 🤖 [ai-portfolio-dm](https://dmarcinowski.com) · live
 
-Practical AI-assisted process automation for businesses that run on paperwork. The next site ships with a proof-ledger content model — **every marketing claim carries its source, method, and caveat before it goes live.** Anti-hype on purpose.
+Paste a job description, get an honest fit verdict — including "probably not." A portfolio that lets employers interrogate the candidate instead of skimming a PDF. `Next.js · Supabase · Claude API`
 
-## 🚢 Shipped and humming
+## 🔨 Building now
 
-| | |
-|---|---|
-| 🧾 **Invoice automation platform** | Production system under Automagic.ly for a telecom-heavy client — 20 carrier extractor formats, compliant cover sheets with cost-center allocations, monthly reporting. Python · SQLite · Fly.io |
-| 🤖 **[ai-portfolio-dm](https://dmarcinowski.com)** | A portfolio that lets employers interrogate the candidate instead of skimming a PDF — paste a job description, get an honest fit verdict, including "probably not." Next.js · Supabase · Claude API |
-| ⏱️ **ChiroTracker** | QR-badge time clock for a small clinic — kiosk clock-in, employee management, hours dashboard. Offline-tolerant PWA |
-| 🌐 **[debrief.run](https://debrief.run)** | Debrief's landing page — hand-written HTML, no framework, no build step |
+### 🏃 Debrief · solo build · in daily use since Jul 2026
 
-## 🧪 In the lab
+Training-analysis app for runners — the watch records, this is where you sit down and think about it. **Local-first on purpose: no accounts, no servers, no subscription.** Your training history is a SQLite file on your own machine, synced outbound-only under your own API credentials — the inverse of every major platform in the category, each of which holds your data and rents you access to it. Two-way MCP integration then lets Claude or GPT read that history and write back tailored workouts and load warnings, instead of giving advice against no data. Approved on the **Suunto API partner program**. `Electron · SQLite · MCP` — [debrief.run](https://debrief.run)
 
-- 🖥️ **local-AI** — turning an M4 Pro Mac into an always-on AI server: local models (Qwen3-Coder on MLX via LM Studio) wired through an outbound relay so a community gets a 24/7 agent at **zero marginal cost per token**. Frontier models by API when it matters; local silicon for everything else.
-- 🗃️ **theDBSample** — local-only research database for collegiate track & XC results. TypeScript CLI pipeline, provenance-tracked, ships code only — never the data.
-- 🧠 **Memex** — an LLM-maintained knowledge base holding only what a model can't look up: decisions with their reasoning, project context, hard-won gotchas. Three verbs: compile, query, audit.
+### 🎯 Seedmark · [FILL: status]
+
+Shows a high-school distance runner where their times actually stand against college recruiting benchmarks, tracked over a multi-year horizon. The benchmark math is deterministic and tested, and grades against an expected age curve — so normal development never reads as failure. Runs on 📚 **RunDB**, a data engine with per-record provenance: every source passes policy review before a single fetch, and the audit trail is committed alongside the code.
+
+### ⚙️ Automagic.ly
+
+The shop. Practical AI-assisted process automation for businesses that run on paperwork. Next site ships with a proof-ledger content model — every marketing claim carries its source, method, and caveat before it goes live.
+
+## 🧪 Also exploring
+
+**local-AI** — an M4 Pro running Qwen3-Coder on MLX behind an outbound relay, giving a community a 24/7 agent at zero marginal cost per token. &nbsp;·&nbsp; **theDBSample** — provenance-tracked research database for collegiate track & XC results; ships the pipeline, never the data. &nbsp;·&nbsp; **Memex** — an LLM-maintained knowledge base holding only what a model can't look up.
 
 ## 📊 Stats
 
@@ -44,4 +47,4 @@ Practical AI-assisted process automation for businesses that run on paperwork. T
 
 ---
 
-<sub>All active work is private for now — ask me about it.</sub>
+<sub>Active work is private for now — ask me about it.</sub>
