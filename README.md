@@ -34,7 +34,10 @@ QR-badge time clock that replaced paper timesheets at a small clinic — kiosk c
 ### 🤖 ai-portfolio-dm
 **Live**
 
-Paste a job description, get an honest fit verdict — including "probably not." Lets employers interrogate the candidate instead of skimming a PDF.
+An online résumé you can cross-examine — and one that's allowed to say no.
+
+- **Every résumé has been perfect since 2023.** What used to be signal is now noise: a flawless document proves nothing when a flawless document takes ten seconds
+- **So this one takes questions instead.** Paste a job description, interrogate the work history, get a fit verdict that can come back **"probably not"** — because an assessment that can't say no can't meaningfully say yes
 
 `Next.js · Supabase · Claude API` — [dmarcinowski.com](https://dmarcinowski.com)
 
