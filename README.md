@@ -60,7 +60,9 @@ Practical AI-assisted process automation for businesses that run on paperwork. N
 
 ## 🧪 Also exploring
 
-**local-AI** — an M4 Pro running Qwen3-Coder on MLX behind an outbound relay, giving a community a 24/7 agent at zero marginal cost per token. &nbsp;·&nbsp; **theDBSample** — provenance-tracked research database for collegiate track & XC results; ships the pipeline, never the data. &nbsp;·&nbsp; **Memex** — an LLM-maintained knowledge base holding only what a model can't look up.
+- 🖥️ **local-AI** — an M4 Pro running Qwen3-Coder on MLX behind an outbound relay, giving a community a 24/7 agent at **zero marginal cost per token**
+- 🗃️ **theDBSample** — provenance-tracked research database for collegiate track & XC results; ships the pipeline, never the data
+- 🧠 **Memex** — an LLM-maintained knowledge base holding only what a model can't look up: decisions with their reasoning, project context, hard-won gotchas
 
 ## 📊 Stats
 
