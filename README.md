@@ -46,7 +46,7 @@ Training analysis for runners — the watch records, this is where you sit down 
 `Electron · SQLite · MCP` — [debrief.run](https://debrief.run)
 
 ### 🎯 Seedmark
-**[FILL: status]**
+**In development**
 
 Shows a high-school distance runner where their times actually stand against college recruiting benchmarks, tracked over a multi-year horizon.
 
@@ -54,9 +54,9 @@ Shows a high-school distance runner where their times actually stand against col
 - Runs on 📚 **RunDB**, a data engine with per-record provenance: every source passes policy review before a single fetch, and the audit trail is committed alongside the code
 
 ### ⚙️ Automagic.ly
-**The shop**
+**Landing page live · v2 in progress**
 
-Practical AI-assisted process automation for businesses that run on paperwork. Next site ships with a proof-ledger content model — every marketing claim carries its source, method, and caveat before it goes live.
+The shop — practical AI-assisted process automation for businesses that run on paperwork. The v2 site ships with a proof-ledger content model: every marketing claim carries its source, method, and caveat before it goes live.
 
 ## 🧪 Also exploring
 
