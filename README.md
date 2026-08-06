@@ -1,6 +1,8 @@
 # Hey, I'm Dave 👋
 
-I build automation systems for businesses that run on paperwork, plus a handful of products of my own. Most of it ships private — the contribution graph is real, the source just isn't public.
+I build automation systems for businesses that run on paperwork, plus a handful of products of my own — usually the ones I got tired of waiting for someone else to build. I'm opinionated about the software I use, and most of what's below started as something that bugged me.
+
+Most of it ships private — the contribution graph is real, the source just isn't public.
 
 🌐 **Portfolio:** [dmarcinowski.com](https://dmarcinowski.com) &nbsp;·&nbsp; ⚙️ **Shop:** [automagic.ly](https://automagic.ly)
 
@@ -37,7 +39,7 @@ Paste a job description, get an honest fit verdict — including "probably not."
 ### 🏃 Debrief
 **Solo build · private beta · in daily use since Jul 2026**
 
-Training analysis for runners — the watch records, this is where you sit down and think about it.
+Training analysis for runners — the watch records, this is where you sit down and think about it. The anti-Strava: no kudos, no feed, no post-run dopamine.
 
 - **Local-first on purpose** — no accounts, no servers, no subscription. Your training history is a SQLite file on your own machine, synced outbound-only under your own credentials
 - **Two-way MCP** — Claude or GPT reads that history and writes back tailored workouts and load warnings, instead of giving advice against no data
