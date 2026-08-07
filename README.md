@@ -27,7 +27,7 @@ Monthly telecom invoicing for a telecom-heavy client, end to end.
 `Python · FastAPI · SQLite · Playwright · React · Fly.io`
 
 ### ⏱️ ChiroTracker
-**Client work · live since Feb 2026**
+**Client work · live since late March 2026**
 
 QR-badge time clock that replaced paper timesheets at a small clinic — kiosk clock-in, employee management, hours dashboard. Offline-tolerant PWA, so a dropped connection never costs someone their punch.
 
