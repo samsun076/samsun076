@@ -64,7 +64,7 @@ Photo-to-macros isn't new. Owning it instead of renting it — and having it kno
 - Run data arrives through **Debrief's** Suunto pipeline, weight from a Garmin Index scale — the two are built to meet
 - **The one public repo here** — everything else on this profile is closed
 
-`React · Hono · Cloudflare Workers · D1 · R2 · TypeScript` — [mymacros.debrief.run](https://mymacros.debrief.run) &nbsp;·&nbsp; [source](https://github.com/samsun076/MyMacros)
+`React · Hono · Cloudflare Workers · D1 · R2 · TypeScript` — [mymacros.debrief.run](https://mymacros.debrief.run) &nbsp;·&nbsp; [source — clone it and run your own](https://github.com/samsun076/MyMacros)
 
 ### 🎯 Seedmark
 **In development**
